@@ -4,5 +4,5 @@ def return_each_word(string)
   string.each{|word|
     new_string << word.reverse
   }
-  new_string.join
+  p new_string.join
 end
