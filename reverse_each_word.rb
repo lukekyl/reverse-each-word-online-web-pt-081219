@@ -6,3 +6,10 @@ def reverse_each_word(string)
   }
   p array.join(" ")
 end
+
+def reverse_each_word(string)
+  string.collect{|word|
+    word.reverse
+  }
+  p string
+end
